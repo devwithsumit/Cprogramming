@@ -7,17 +7,19 @@ int main()
     // y=--x;//first decreament then use
     // z=x--;//first use then decreament
     // printf(" %d %d %d \n", x,y,z);
+    
+    1.
+    int x=4, y=0, z;
+    while(x>=0){
+        if(x==y)
+        break;
+        else
+        printf("\n %d %d", x,y);
+        x--;
+        y++;
+    }
 
-    // int x=4, y=0, z;
-    // while(x>=0){
-    //     if(x==y)
-    //     break;
-    //     else
-    //     printf("\n %d %d", x,y);
-    //     x--;
-    //     y++;
-    // }
-
+    // 2.
     // int n;
     // printf("enter a number :");
     // scanf("%d", &n);
@@ -31,6 +33,7 @@ int main()
     // }
     // printf("sum of the digits are %d\n", sum);
 
+    // 3
     //  int n;
     // printf("enter a number :");
     // scanf("%d", &n);
@@ -47,6 +50,7 @@ int main()
     // }
     // printf("sum of the even digits are %d\n", sum);
 
+    // 4
     //  int n;
     // printf("enter a number :");
     // scanf("%d", &n);
@@ -63,6 +67,7 @@ int main()
     // }
     // printf("sum of the odd digits are %d\n", sum);
 
+    // 5
     // int n;
     // printf("enter a number :");
     // scanf("%d", &n);
@@ -75,7 +80,7 @@ int main()
     // }
     // printf("reverse of the given number is %d\n", r);
 
-    // 1-2+3-4+5-6...
+    // Q.6 1-2+3-4+5-6...
     // int n;
     // printf("enter no of terms :");
     // scanf("%d", &n);
