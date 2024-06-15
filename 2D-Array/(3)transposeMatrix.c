@@ -1,5 +1,7 @@
 #include<stdio.h>
 #include<limits.h>
+
+//Q.1 Transpose of a matrix
 // int main(){
 //     int a[2][3]= {{4,6,2},{9,3,1 }};
 //     int n = sizeof(a) / sizeof(a[0]);
@@ -22,7 +24,7 @@
 //     return 0;
 // }
 
-//Change the current matrix to its transpose of n x n matrix
+//Q.2 Change the current matrix to its transpose of n x n matrix
 // int main(){
 //     int a[3][3]= {{3,6,1},{4,6,2},{9,3,1}};
 //     int n = sizeof(a) / sizeof(a[0]);
@@ -50,7 +52,7 @@
 //     return 0;
 // }
 
-//rotate a matrix to 90 deg
+//Q.3 rotate a matrix to 90 deg
 int main(){
     int a[3][3]= {{1,2,3},{4,5,6},{7,8,9}};
     int n = sizeof(a) / sizeof(a[0]);
