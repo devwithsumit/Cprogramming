@@ -5,10 +5,10 @@ int main()
 {
     // system("clear");
 
-    for (int i = 1 ; i <=10 ; i++)
-    {
-        printf("%i Hello World\n ", i);
-    }
+    // for (int i = 1 ; i <=10 ; i++)
+    // {
+    //     printf("%i Hello World\n ", i);
+    // }
 
     // Q.1  print all even numbers from 1 to 100
     //  for (int i = 2; i <=100 ; i=i+2)
@@ -131,21 +131,21 @@ int main()
     //  }
 
     //8 WAP to print Armstrong number between 1 to 500
-//    for(int j=2; j<=500; j++){
-//      int n = j;
-//     int a = n;
-//     int sum = 0;
-//     while (n >0)
-//     {
-//         int rem;
-//         rem = n % 10;
-//         int cube = rem * rem * rem;
-//         sum = sum + cube;
-//         n = n / 10;
-//     }
-//     if(a==sum) 
-//     printf("%d ", j);
-//    }
+   for(int j=2; j<=500; j++){
+     int n = j;
+    int a = n;
+    int sum = 0;
+    while (n >0)
+    {
+        int rem;
+        rem = n % 10;
+        int cube = rem * rem * rem;
+        sum = sum + cube;
+        n = n / 10;
+    }
+    if(a==sum) 
+    printf("%d ", j);
+   }
 
     return 0;
 }
