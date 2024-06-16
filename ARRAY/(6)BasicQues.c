@@ -1,24 +1,23 @@
 #include<stdio.h>
 #include<limits.h>
-//Increament the even indexed value by 10 and 
+//1.Increament the even indexed value by 10 and 
 //& Change the odd indexed value to its second multiple
-//
-// int main(){
-//     int a[5] = {1,2,3,4,5};
-//     for(int i = 0 ; i<5 ; i++){
-//         if(i%2==0){
-//             a[i] = a[i] + 10;
-//         } 
-//         else {
-//             a[i] = a[i]*2;
-//     }
-//         printf("%d ", a[i]);
-//     }
-//     return 0;
-// }
+int main(){
+    int a[5] = {1,2,3,4,5};
+    for(int i = 0 ; i<5 ; i++){
+        if(i%2==0){
+            a[i] = a[i] + 10;
+        } 
+        else {
+            a[i] = a[i]*2;
+    }
+        printf("%d ", a[i]);
+    }
+    return 0;
+}
 
-/*Count the number of elements in given array 
-which are  greater than a given number x.*/
+//2.Count the number of elements in given array 
+//which are  greater than a given number x.*/
 // int main(){
 //     int a[5] = {1,2,3,4,5};
 //     int x =3, count = 0;
@@ -31,8 +30,8 @@ which are  greater than a given number x.*/
 //     return 0;
 // }
 
-/*Find the diff. b/w the sum of elements at even indices
-to the sum of elements at odd indices*/
+//3*Find the diff. b/w the sum of elements at even indices
+//to the sum of elements at odd indices*/
 // int main(){
 //     int a[4] = {4,3,4,3}; //Even 4+4 = 8 odd 3+3 = 6
 //     int x =3;
@@ -51,7 +50,7 @@ to the sum of elements at odd indices*/
 //     return 0;
 // }
 
-/*Find the total number of pairs in the Array
+/*4.Find the total number of pairs in the Array
 whose sum is equal to the given value x*/
 // int main(){
 //     int a[8] = {1,2,3,4,5,6,7,8};
@@ -69,7 +68,7 @@ whose sum is equal to the given value x*/
 //     return 0;
 // }
 
-/*Find the total number of Triplets
+/*5.Find the total number of Triplets
 whose sum is equal to the given value x*/
 // int main(){
 //     int a[8] = {1,2,3,4,5,6,7,8};
@@ -89,7 +88,7 @@ whose sum is equal to the given value x*/
 //     return 0;
 // }
 
-//Find Second** Largest element of array
+//6.Find Second** Largest element of array
 // int main(){
 //     int a[3] = {1,2,3};
 //     int max= a[0];

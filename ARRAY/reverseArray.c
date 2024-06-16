@@ -1,16 +1,16 @@
 #include<stdio.h>
-// int main(){
-//     int a[5]= { 1,2,3,4,5};
-//     int len = sizeof(a)/sizeof(int);
-//     int b[len];
-//     for(int i=0; i<len; i++){
-//         b[i]=a[(len-1)-i];
-//     }
-//     for(int i=0; i<len; i++){
-//         printf("%d ",b[i]);
-//     }
-//     return 0;
-// }
+int main(){
+    int a[5]= { 1,2,3,4,5};
+    int len = sizeof(a)/sizeof(int);
+    int b[len];
+    for(int i=0; i<len; i++){
+        b[i]=a[(len-1)-i];
+    }
+    for(int i=0; i<len; i++){
+        printf("%d ",b[i]);
+    }
+    return 0;
+}
 
 //without using another array
 // void reverse(int n[]){

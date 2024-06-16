@@ -1,38 +1,38 @@
 #include<stdio.h>
 #include<limits.h>
-//store roll number and marks obtained side by side
+//Q.1 store roll number and marks obtained side by side
 //of n no. of students let n = 4;
-// int main(){
-//     int n = 2 ;
-//     printf("Enter no. of Students :");
-//     scanf("%d", &n);
-//     int a[n][2];
-//     for(int i=0; i<n;i++){
-//         for(int j=0;j<2; j++){
-//             if(j%2==0){
-//                 printf("Enter Roll no. :");
-//                 scanf("%d",&a[i][j]);
-//             }
-//             else{
-//                 printf("Enter Marks : ");
-//                 scanf("%d",&a[i][j]);
-//             }
-//         }
-//     }
-//     printf("\n");
-//     printf("Students Roll no. Marks\n");
-//     for(int i=0; i<n;i++){
-//         printf("%d\t  ",i+1);
-//         for(int j=0;j<2; j++){
-//             // scanf("%d",&a[i][j]);
-//             printf("%d\t   ",a[i][j]);
-//         }
-//         printf("\n");
-//     }
-//     return 0;
-// }
+int main(){
+    int n = 2 ;
+    printf("Enter no. of Students :");
+    scanf("%d", &n);
+    int a[n][2];
+    for(int i=0; i<n;i++){
+        for(int j=0;j<2; j++){
+            if(j%2==0){
+                printf("Enter Roll no. :");
+                scanf("%d",&a[i][j]);
+            }
+            else{
+                printf("Enter Marks : ");
+                scanf("%d",&a[i][j]);
+            }
+        }
+    }
+    printf("\n");
+    printf("Students Roll no. Marks\n");
+    for(int i=0; i<n;i++){
+        printf("%d\t  ",i+1);
+        for(int j=0;j<2; j++){
+            // scanf("%d",&a[i][j]);
+            printf("%d\t   ",a[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
 
-//Store 10 at every index of 5*5 2d array or matrix
+//Q.2 Store 10 at every index of 5*5 2d array or matrix
 // int main(){
 //     int n = 5;
 //     int x = 10;
@@ -45,7 +45,7 @@
 //     }
 // }
 
-//Add two matrices
+//Q.3 Add two matrices
 // int main(){
 //     int n =2;
 //     int a[2][2]= {{3,2},{3,2}};
@@ -72,7 +72,7 @@
 //     }
 // }
 
-//sum of all elements of matrix n x m;
+//Q.4 sum of all elements of matrix n x m;
 // int main(){
 //     int n =2;
 //     int m =2;
@@ -96,7 +96,7 @@
 //     printf("Sum is %d", sum);
 // }
 
-//Maximun of a matrix;
+//Q.5 Maximun of a matrix;
 // #include<limits.h>
 // int main(){
 //     int a[2][2]= {{1,6},{3,5}};
@@ -128,7 +128,7 @@
 // }
 
 
-//Tell row no. with max sum of elements
+//Q.6 Tell row no. with max sum of elements
 // int main(){
 //     int a[3][2]= {{1,6},{3,5},{2,4}};
 //     int n = sizeof(a) / sizeof(a[0]);
@@ -152,7 +152,7 @@
 //     return 0;
 // }
 
-//Find row with maximum number of 1's
+//Q.7 Find row with maximum number of 1's
 //in the maxtrix having only 0 and 1.
 // int main(){
 //     int a[3][4]= {{1,0,1,0},{1,0,1,1},{0,1,0,0}};
