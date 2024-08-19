@@ -3,5 +3,6 @@
         "typeinfo": "c",
         "stdlib.h": "c"
     },
+    
     "cmake.configureOnOpen": false
 }
